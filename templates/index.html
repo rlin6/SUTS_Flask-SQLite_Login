@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Flask Index</title>
+    </head>
+    
+    <body>
+        
+        <header>
+            <h2>Choose an option</h2>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                <li><a href="{{ url_for('register') }}">Register</a></li>
+
+            </ul>
+        </nav>
+    </body>
+</html>
